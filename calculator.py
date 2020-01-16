@@ -28,3 +28,5 @@ elif choice == 2:
     num_1 = int(input("enter subrahend: "))
     num_2 = int(input("enter subtractor : "))
     print(f"subtraction of{num_1} and {num_2} is {sub(num_1,num_2)}")
+
+print("changes")
