@@ -29,4 +29,12 @@ elif choice == 2:
     num_2 = int(input("enter subtractor : "))
     print(f"subtraction of{num_1} and {num_2} is {sub(num_1,num_2)}")
 
-print("changes")
+elif choice == 3:
+    num_1 = int(input("enter num_1 : "))
+    num_2 = int(input("enter num_2 : "))
+    print(f"multiplication of {num_1} and {num_2} is {mul(num_1,num_2)}")
+
+elif choice == 4:
+    num_1 = int(input("enter dividend :"))
+    num_2 = int(input("enter divisor : "))
+    print(f"{num_1}/{num_2} is {div(num_1,num_2)}")
